@@ -1,0 +1,7 @@
+A simple Brainfuck interpreter written in Rust. 
+
+http://en.wikipedia.org/wiki/Brainfuck
+
+(C) Sebastian Kaspari 2015
+This programm is licensed under the terms of the
+DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE.
