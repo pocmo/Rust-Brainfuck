@@ -54,7 +54,7 @@ fn read_filename_from_arguments() -> String {
 }
 
 fn evaluate(program_code: String) {
-        let mut cells : [i8; 30000] = [0; 30000];
+    let mut cells : [i8; 30000] = [0; 30000];
     let tokens = program_code.chars().collect();
 
     let (forward_map, backward_map) = build_loop_map(&tokens);
